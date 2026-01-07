@@ -15,7 +15,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #ff6118, #e48366);
+    background: linear-gradient(135deg, #bdbab9, #f1f1f1);
     text-align: center;
     padding: 60px 20px;
     color: #000000;
@@ -96,7 +96,7 @@ body {
 }
 
 .social a:hover {
-    background: #ee280e;
+    background: #0d0e0d;
 }
 
 /* Footer */

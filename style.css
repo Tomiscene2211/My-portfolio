@@ -1,0 +1,125 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Algerian', Tahoma, sans-serif;
+    background: #1c1c1c;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #ff6118, #e48366);
+    text-align: center;
+    padding: 60px 20px;
+    color: #000000;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    margin-top: 15px;
+}
+
+/* Button */
+#actionBtn {
+    margin-top: 25px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#actionBtn:hover {
+    background-color: #333333;
+}
+
+/* Content Blocks */
+.block {
+    background: #ffffff;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.block h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ff7a18;
+}
+
+.block p {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/* Social Section */
+.social {
+    text-align: center;
+}
+
+.social a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 22px;
+    background: #010502; /* Black tone */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.social a:hover {
+    background: #ee280e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #cccccc;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .block {
+        margin: 25px 15px;
+        padding: 20px;
+    }
+}
